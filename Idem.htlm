@@ -1,1 +1,99 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DAO Tech</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+text-align:center;
+}
+
+header{
+padding:60px 20px;
+}
+
+h1{
+font-size:3rem;
+}
+
+p{
+margin-top:15px;
+font-size:1.1rem;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:#334155;
+padding:20px;
+border-radius:15px;
+width:250px;
+}
+
+footer{
+padding:20px;
+background:#0f172a;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Bienvenue sur DAO Tech</h1>
+<p>Mon premier site créé avec Termux</p>
+<a href="#" class="btn">Découvrir</a>
+</header>
+
+<section class="cards">
+<div class="card">
+<h2>Programmation</h2>
+<p>Python, HTML, CSS et JavaScript.</p>
+</div>
+
+<div class="card">
+<h2>Robotique</h2>
+<p>Arduino et projets intelligents.</p>
+</div>
+
+<div class="card">
+<h2>IA</h2>
+<p>Découverte de l'intelligence artificielle.</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 DAO IBRAHIM</p>
+</footer>
+
+</body>
+</html>
